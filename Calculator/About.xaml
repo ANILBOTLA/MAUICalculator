@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Calculator.About"
+             Title="About" BackgroundColor="Beige">
+    <VerticalStackLayout>
+        <Label 
+            Text="ANIL BOTLA"
+            VerticalOptions="End" 
+            HorizontalOptions="Start"
+            FontSize="Large"/>
+        <Label 
+            Text="SRINIVAS"
+            VerticalOptions="End" 
+            HorizontalOptions="Start"
+            FontSize="Large"/>
+        <Label 
+            Text="HARISH"
+            VerticalOptions="End" 
+            HorizontalOptions="Start"
+            FontSize="Large"/>
+    </VerticalStackLayout>
+</ContentPage>
