@@ -10,14 +10,14 @@
                     SelectionMode="Single">
         <CollectionView.ItemsSource>
 
-            <x:Array Type="{x:Type local:FlyoutPageItem}">
-                <local:FlyoutPageItem Title="Default Calculator"
+            <x:Array Type="{x:Type local:MenuPageItem}">
+                <local:MenuPageItem Title="Default Calculator"
                                       TargetType="{x:Type local:MainPage}" />
-                <local:FlyoutPageItem Title="Advanced Calculator"
+                <local:MenuPageItem Title="Advanced Calculator"
                                       TargetType="{x:Type local:UpdatedMain}" />
-                <local:FlyoutPageItem Title="About Page"
+                <local:MenuPageItem Title="About Page"
                                       TargetType="{x:Type local:About}" />
-                <local:FlyoutPageItem Title="AppColor"
+                <local:MenuPageItem Title="AppColor"
                                       TargetType="{x:Type local:AppColor}" />
             </x:Array>
         </CollectionView.ItemsSource>

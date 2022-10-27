@@ -11,7 +11,7 @@ public partial class FlyoutPageMain : FlyoutPage
 
     void OnSelectionChanged(object sender, SelectionChangedEventArgs e)
     {
-        var item = e.CurrentSelection.FirstOrDefault() as FlyoutPageItem;
+        var item = e.CurrentSelection.FirstOrDefault() as MenuPageItem;
         if (item != null)
         {
             Detail = new NavigationPage((Page)Activator.CreateInstance(item.TargetType));
