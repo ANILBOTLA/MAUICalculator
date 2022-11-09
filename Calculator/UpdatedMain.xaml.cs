@@ -1,11 +1,15 @@
-namespace Calculator;
 using System;
+using Calculator.Views;
 
+
+namespace Calculator;
 public partial class UpdatedMain : ContentPage
 {
     public UpdatedMain()
     {
         InitializeComponent();
+        Routing.RegisterRoute(nameof(TodoItemPage), typeof(TodoItemPage));
+
         OnClear(this, null);
     }
     public UpdatedMain(Microsoft.Maui.Graphics.Color clr)
@@ -15,6 +19,9 @@ public partial class UpdatedMain : ContentPage
         this.grid_name.BackgroundColor = clr;
 
     }
+
+
+  
     string currentEntry = "";
     int currentState = 1;
     string mathOperator;

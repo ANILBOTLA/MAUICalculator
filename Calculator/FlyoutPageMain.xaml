@@ -6,6 +6,7 @@
              Title="FlyoutPage" Background="{DynamicResource Cyan200Accent}">
 
     <FlyoutPage.Flyout>
+        
         <local:FlyoutMenuPage x:Name="flyoutPage"/>
     </FlyoutPage.Flyout>
     <FlyoutPage.Detail>

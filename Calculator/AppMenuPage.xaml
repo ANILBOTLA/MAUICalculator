@@ -4,15 +4,20 @@
              x:Class="Calculator.FlyoutMenuPage"
              xmlns:local="clr-namespace:Calculator"
              Title="FlyoutMenuPage" Background="{DynamicResource MidGrayBrush}">
-
+    
     <CollectionView x:Name="collectionView"
                     x:FieldModifier="public"
                     SelectionMode="Single">
+        
         <CollectionView.ItemsSource>
+            
+            
 
             <x:Array Type="{x:Type local:MenuPageItem}">
                 <local:MenuPageItem Title="Default Calculator"
                                       TargetType="{x:Type local:MainPage}" />
+                <local:MenuPageItem Title="DailyExcercise Calculator"
+                                      TargetType="{x:Type local:DailyExcercise}" />
                 <local:MenuPageItem Title="Advanced Calculator"
                                       TargetType="{x:Type local:UpdatedMain}" />
                 <local:MenuPageItem Title="About Page"

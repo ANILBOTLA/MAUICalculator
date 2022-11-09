@@ -1,4 +1,6 @@
-﻿namespace Calculator;
+﻿using Calculator.Views;
+
+namespace Calculator;
 
 public partial class App : Application
 {
@@ -6,6 +8,10 @@ public partial class App : Application
 	{
 		InitializeComponent();
 
-		MainPage = new FlyoutPageMain();
-	}
+        Routing.RegisterRoute(nameof(TodoItemPage), typeof(TodoItemPage));
+
+        MainPage = new FlyoutPageMain();
+
+       
+    }
 }

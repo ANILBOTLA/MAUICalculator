@@ -1,3 +1,5 @@
+using Calculator.Views;
+
 namespace Calculator;
 
 public partial class MenuPageItem : ContentPage
@@ -7,6 +9,8 @@ public partial class MenuPageItem : ContentPage
 
     public MenuPageItem()
     {
+
+        Routing.RegisterRoute(nameof(TodoItemPage), typeof(TodoItemPage));
         InitializeComponent();
     }
 }

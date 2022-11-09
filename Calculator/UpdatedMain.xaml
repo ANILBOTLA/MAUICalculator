@@ -7,6 +7,7 @@
           RowDefinitions="2*,*,*,*,*,*"
           ColumnDefinitions="*,*,*,*,*">
 
+        
         <Label x:Name="CurrentCalculation"
                FontSize="22"
                LineBreakMode="NoWrap"
@@ -27,6 +28,8 @@
                  Grid.ColumnSpan="4"
                  />
 
+        
+        
         <Button Text="C" Grid.Row="1" Grid.Column="0"
                Clicked="OnClear" />
         <Button Text="+/-" Grid.Row="1" Grid.Column="1"

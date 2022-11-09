@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Calculator.DailyExcercise"
+             Title="DailyExcercise">
+    
+
+        <Grid x:Name="grid_name" Padding="16" RowSpacing="2" ColumnSpacing="2"
+          BackgroundColor="{StaticResource Yellow300Accent}"
+          RowDefinitions="2*,*,*,*,*,*,*,*"
+          ColumnDefinitions="*,*,*,*,*,*,*">
+
+
+        <Button Text="Exp" Grid.Row="2" Grid.Column="2"
+                Grid.RowSpan="1" Grid.ColumnSpan="6"
+                x:Name="CounterBtn"
+                BackgroundColor="Blue"
+                Clicked="RefreshDataAsync" />
+
+        <Button Text="opt1" Grid.Row="3" Grid.Column="2"
+                Grid.RowSpan="1" Grid.ColumnSpan="6"
+                x:Name="CounterBtn1"
+                BackgroundColor="Blue"
+                Clicked="RefreshDataAsync1" />
+
+        <Button Text="Opt2" Grid.Row="4" Grid.Column="2"
+                Grid.RowSpan="1" Grid.ColumnSpan="6"
+                BackgroundColor="Blue"
+                x:Name="CounterBtn2"
+                Clicked="RefreshDataAsync2" />
+
+        <Button Text="Opt3" Grid.Row="5" Grid.Column="2"
+                Grid.RowSpan="1" Grid.ColumnSpan="6"
+                BackgroundColor="Blue"
+                x:Name="CounterBtn3"
+                Clicked="RefreshDataAsync3" />
+
+
+       
+            
+            
+            
+
+
+        <Button Text=" Skip to Next->" Grid.Row="7" Grid.Column="5"
+                BackgroundColor="Blue"
+                Grid.ColumnSpan="4"
+                x:Name="CounterBtn4"
+                Clicked="Onin"/>
+
+        <Button Text="Try Again" Grid.Row="7" Grid.Column="1"
+                Grid.ColumnSpan="2"
+                BackgroundColor="Blue"
+                x:Name="CounterBtn5"
+                Clicked="Onre"/>
+
+
+
+
+    </Grid>
+
+    
+</ContentPage>

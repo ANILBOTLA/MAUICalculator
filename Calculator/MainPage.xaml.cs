@@ -1,4 +1,8 @@
-﻿namespace Calculator;
+﻿using Calculator.Models;
+using System.Diagnostics;
+using System.Text.Json;
+
+namespace Calculator;
 public partial class MainPage : ContentPage{
     int count = 0;
     public MainPage(){
@@ -16,6 +20,13 @@ public partial class MainPage : ContentPage{
             CounterBtn.Text = $"   Anil , srinivas, Harish";
         Console.WriteLine(CounterBtn.Text);
     }
+
+
+    
+
+   
+
+
     void OnSelectNumber(object sender, EventArgs e){
         Button button = (Button)sender;
         string pressed = button.Text;

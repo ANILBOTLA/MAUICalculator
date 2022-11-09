@@ -1,4 +1,7 @@
-﻿namespace Calculator;
+﻿using Calculator.Services;
+using Calculator.Views;
+
+namespace Calculator;
 
 public static class MauiProgram
 {
@@ -12,6 +15,14 @@ public static class MauiProgram
 				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
 				fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
 			});
-		return builder.Build();
+
+
+        builder.Services.AddSingleton<IHttpsClientHandlerService, HttpsClientHandlerService>();
+        builder.Services.AddSingleton<IRestService, RestService>();
+        builder.Services.AddSingleton<ITodoService, TodoService>();
+
+        builder.Services.AddSingleton<TodoListPage>();
+        builder.Services.AddTransient<TodoItemPage>();
+        return builder.Build();
 	}
 }
