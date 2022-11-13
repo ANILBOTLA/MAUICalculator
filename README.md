@@ -9,6 +9,10 @@ Team members: -
 In this project we built Calculator with API Connection.
 Below are our individual works.
 1. Anil works on API creation and JSON generation then connected API & APP..
+#4108e566887d905469db75dd8ffe3cb36b4910e9:(Conmnection estrablishment)API Talks with APP and added models in APP
+#7202b0f4deea4d4a67e471a490df30c481b5c31f(JSON to list Convertion)
+
+
 2. Harish Reddy added all the flyouts and navigations and display of correct and wrong answers.
 3. Srinivasa Reddy works on API connection.
 
