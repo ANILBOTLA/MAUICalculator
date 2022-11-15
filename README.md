@@ -15,7 +15,7 @@ Below are our individual works.
 
 
 2. Harish Reddy added all the flyouts and navigations and display of correct and wrong answers.
-3. Srinivasa Reddy works on API connection.
+3. Srinivasa Reddy works on API connection. and json reading from API.
 
 
 
