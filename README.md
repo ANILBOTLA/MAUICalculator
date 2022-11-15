@@ -9,6 +9,7 @@ Team members: -
 In this project we built Calculator with API Connection.
 Below are our individual works.
 1. Anil works on API creation and JSON generation then connected API & APP..
+#60dad1c2a70213eed89a7f00daa7b57c4cba22b4(Updated the buttons to display the correct and wrong options)
 #4108e566887d905469db75dd8ffe3cb36b4910e9:(Conmnection estrablishment)API Talks with APP and added models in APP
 #7202b0f4deea4d4a67e471a490df30c481b5c31f(JSON to list Convertion)
 
@@ -31,3 +32,5 @@ https://github.com/HarishReddyNadavaluru/MAUIPro2
 https://github.com/ANILBOTLA/MAUICalculator
 
 youtube link: -https://youtu.be/_DtJVxld1-g
+
+youtube link for API Connection inclusion https://youtu.be/MLasVpgpaRA
