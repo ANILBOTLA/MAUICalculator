@@ -1,7 +1,5 @@
 using System;
 using Calculator.Views;
-
-
 namespace Calculator;
 public partial class UpdatedMain : ContentPage
 {
@@ -20,8 +18,11 @@ public partial class UpdatedMain : ContentPage
 
     }
 
+   /* public static List<int> age = new List<int>();
+    Page.add(1);
+   */
 
-  
+
     string currentEntry = "";
     int currentState = 1;
     string mathOperator;
